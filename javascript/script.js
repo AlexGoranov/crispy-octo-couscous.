@@ -15,7 +15,7 @@ for(i = list.length; i--; )
 icons.play();
 
 
-$(document).on('pageinit', "#demo-page", function(){
+$(document).on('pageinit', function(){
   alert('hey')
    $(document).on('swipe', function( e ) {
      if (e.type === "swipeleft" ) {
