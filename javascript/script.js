@@ -14,12 +14,6 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
-$(function() {
- $('#right').on('click',function(e) {
-   $('hey').text('wow');
- });
-});
-
 $('#right').on('click',function(e) {
    $('hey').text('wow');
  });
