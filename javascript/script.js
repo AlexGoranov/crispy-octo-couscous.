@@ -17,3 +17,7 @@ icons.play();
 $("h1").on("swipeleft",function(){
   $("#hey").text('hello');
 });
+
+$("h1").on("click", function() {
+   $("#hey").text('hello');
+});
