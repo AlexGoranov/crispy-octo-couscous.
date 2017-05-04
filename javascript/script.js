@@ -20,7 +20,7 @@ $(document).on('pageinit', "#demo-page", function(event){
      if (e.type === "swipeleft" ) {
         $("#hoy").text('hollo');
      } else if (e.type === "swiperight" ) {
-        $("#hoy').text('hello'); 
+        $("#hoy").text('hello');
      }
    });
 });
