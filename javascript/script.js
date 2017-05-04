@@ -15,7 +15,7 @@ for(i = list.length; i--; )
 icons.play();
 
 
-$(document).on('pageinit', "#demo-page", function(event){
+$(document).on('pageinit', "#demo-page", function(){
    $(document).on('swipe', "$demo-page", function( e ) {
      if (e.type === "swipeleft" ) {
         $("#hoy").text('hollo');
