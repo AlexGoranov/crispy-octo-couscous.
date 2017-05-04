@@ -15,13 +15,12 @@ for(i = list.length; i--; )
 icons.play();
 
 
-$(document).on('pageinit', function(event){
-   
-$("div[data-role='main'").on("swipe",function(){
-  $("#hoy").text('hollo');
-});
-
-$("div[data-role='main']").on("click", function() {
-   $("#hey").text('hello');
-});
+$(document).on('pageinit', "#demo-page", function(event){
+   $(document).on('swipe', "$demo-page", function( e ) {
+     if (e.type === "swipeleft" ) {
+        $("#hoy").text('hollo');
+     } else if (e.type === "swiperight" ) {
+        $("#hoy).text('hello'); 
+     }
+   });
 });
