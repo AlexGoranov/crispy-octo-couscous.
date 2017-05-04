@@ -17,7 +17,7 @@ icons.play();
 
 $(document).on('pageinit', function(event){
    
-$("div[data-role='header'").on("swipeleft",function(){
+$("div[data-role='header'").on("swipe",function(){
   $("#hoy").text('hollo');
 });
 
