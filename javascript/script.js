@@ -14,8 +14,8 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
-$("h1").on("swipeleft",function(){
-  $("#hey").text('hello');
+$("div[data-role='header'").on("swipeleft",function(){
+  $("#hoy").text('hello');
 });
 
 $("div[data-role='header']").on("click", function() {
