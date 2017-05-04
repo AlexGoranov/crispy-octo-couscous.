@@ -15,8 +15,8 @@ for(i = list.length; i--; )
 icons.play();
 
 
-$(document).on('pageinit', "#demo-page", function(){
-   $(document).on('swipe', "$demo-page", function( e ) {
+$(document).on('pageinit', function(){
+   $(document).on('swipe', function( e ) {
      if (e.type === "swipeleft" ) {
         $("#hoy").text('hollo');
      } else if (e.type === "swiperight" ) {
