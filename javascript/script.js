@@ -17,11 +17,11 @@ icons.play();
 
 $(document).on('pageinit', function(event){
    
-$("div[data-role='header'").on("swipe",function(){
+$("div[data-role='main'").on("swipe",function(){
   $("#hoy").text('hollo');
 });
 
-$("div[data-role='header']").on("click", function() {
+$("div[data-role='main']").on("click", function() {
    $("#hey").text('hello');
 });
 });
