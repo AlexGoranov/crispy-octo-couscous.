@@ -22,6 +22,7 @@ $(document).on('pageinit', function(){
         $("#hoy").text('hollo');
      } else if (e.type === "swiperight" ) {
         $("#hoy").text('hello');
-     }
+     } else {
+       $('#hey').text('wow');
    });
 });
