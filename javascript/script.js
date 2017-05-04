@@ -14,21 +14,6 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
-
-/*$(document).on('pageinit', '#demo-page', function(){
-  alert('hey')
-   $(document).on('swipe', function( e ) {
-     if (e.type === "swipeleft" ) {
-        $("#hoy").text('hollo');
-     } else if (e.type === "swiperight" ) {
-        $("#hoy").text('hello');
-     } else {
-       $('#hey').text('wow');
-   });
-     $(document).on('click', '#right', function(e) {
-   $('#hey').text('wow');
- });
-});*/
 $(function() {
  $('#right').on('click',function(e) {
    $('hey').text('wow');
