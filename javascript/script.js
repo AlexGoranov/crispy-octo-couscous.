@@ -15,7 +15,7 @@ for(i = list.length; i--; )
 icons.play();
 
 
-$(document).on('pageinit', '#demo-page', function(){
+/*$(document).on('pageinit', '#demo-page', function(){
   alert('hey')
    $(document).on('swipe', function( e ) {
      if (e.type === "swipeleft" ) {
@@ -27,5 +27,10 @@ $(document).on('pageinit', '#demo-page', function(){
    });
      $(document).on('click', '#right', function(e) {
    $('#hey').text('wow');
+ });
+});*/
+$(function() {
+ $('#right').on('click',function(e) {
+   $('hey').text('wow');
  });
 });
