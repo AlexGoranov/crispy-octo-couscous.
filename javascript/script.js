@@ -25,8 +25,7 @@ $(document).on('pageinit', function(){
      } else {
        $('#hey').text('wow');
    });
-});
-  
- $(document).on('click', '#demo-page', function(e) {
+     $(document).on('click', '#demo-page', function(e) {
    $('#hey').text('wow');
  });
+});
