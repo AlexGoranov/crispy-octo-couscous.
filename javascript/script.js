@@ -14,4 +14,13 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
-$(".sidebar.right").sidebar({side: "right"});
+$(".sidebar.left").sidebar().trigger("sidebar:open");
+
+    // Sidebar on right side
+    $(".sidebar.right").sidebar({side: "right"});
+
+    // Sidebar on top side
+    $(".sidebar.top").sidebar({side: "top"});
+
+    // Sidebar on bottom side
+    $(".sidebar.bottom").sidebar({side: "bottom"});
