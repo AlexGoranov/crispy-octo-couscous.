@@ -14,10 +14,14 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
+
+$(document).on('pageinit', function(event){
+   
 $("div[data-role='header'").on("swipeleft",function(){
   $("#hoy").text('hello');
 });
 
 $("div[data-role='header']").on("click", function() {
    $("#hey").text('hello');
+});
 });
