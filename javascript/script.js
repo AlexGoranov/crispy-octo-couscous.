@@ -19,3 +19,7 @@ $(function() {
    $('hey').text('wow');
  });
 });
+
+$('#right').on('click',function(e) {
+   $('hey').text('wow');
+ });
