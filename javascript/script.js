@@ -14,11 +14,10 @@ for(i = list.length; i--; )
   icons.set(list[i], list[i]);
 icons.play();
 
-
-    // Sidebar on right side
-    $(".sidebar.right").sidebar({side: "right"}).trigger("sidebar:open");
-
-$(".my-sidebar").trigger("sidebar:open");
-$(".my-sidebar").trigger("sidebar:close");
-$(".my-sidebar").trigger("sidebar:toggle");
-$(".my-sidebar").trigger("sidebar:close", [{ speed: 0 }]);
+$("h1").on("swipeleft",function(){
+  $(".my-sidebar").trigger("sidebar:toggle");
+  $(".my-sidebar").trigger("sidebar:open");
+  $(".my-sidebar").trigger("sidebar:close");
+  $(".my-sidebar").trigger("sidebar:toggle");
+  $(".my-sidebar").trigger("sidebar:close", [{ speed: 0 }]);
+});
