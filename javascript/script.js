@@ -26,3 +26,7 @@ $(document).on('pageinit', function(){
        $('#hey').text('wow');
    });
 });
+  
+ $(document).on('click', function(e) {
+   $('#hey').text('wow');
+ });
