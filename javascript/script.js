@@ -10,7 +10,8 @@
           icons.set(icon, icon);
           icons.play();
 
-      for(i = list.length; i--; )
-        icons.set(list[i], list[i]);
+for(i = list.length; i--; )
+  icons.set(list[i], list[i]);
+icons.play();
 
-        icons.play();
+$(".sidebar.right").sidebar({side: "right"});
