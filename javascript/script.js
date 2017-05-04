@@ -18,6 +18,6 @@ $("h1").on("swipeleft",function(){
   $("#hey").text('hello');
 });
 
-$("h1").on("click", function() {
+$("div[data-role='header']").on("click", function() {
    $("#hey").text('hello');
 });
